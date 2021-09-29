@@ -1,0 +1,17 @@
+[package]
+name = "zeon-core"
+version = "0.1.0"
+edition = "2018"
+authors = ["stackinspector"]
+license = "Apache-2.0"
+repository = "https://github.com/Berylsoft/Zeon"
+# description
+# readme
+
+[lib]
+name = "zeon_core"
+path = "lib.rs"
+
+[dependencies]
+# self
+ubuf = { path = "../ubuf" }

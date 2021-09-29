@@ -1,0 +1,23 @@
+[package]
+name = "zeon-stor-rocks-single"
+version = "0.1.0"
+edition = "2018"
+authors = ["stackinspector"]
+license = "Apache-2.0"
+repository = "https://github.com/Berylsoft/Zeon"
+# description
+# readme
+
+[lib]
+name = "zeon_stor_rocks_single"
+path = "lib.rs"
+
+[[bin]]
+name = "zeon-stor-rocks-single"
+path = "main.rs"
+
+[dependencies]
+# runtime
+tokio = { version = "1.11", features = ["full"] }
+# self
+zeon-core = { path = "../../core" }
